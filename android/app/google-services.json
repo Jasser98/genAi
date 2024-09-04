@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "215360276901",
+    "project_id": "genai-aa516",
+    "storage_bucket": "genai-aa516.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:215360276901:android:c9588e3ec1cf3a0efe004c",
+        "android_client_info": {
+          "package_name": "com.example.genai"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPXlKcj2_pe25CAQ7byiUVTKwDEV7xrsw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
