@@ -8,6 +8,7 @@ environment:
   sdk: '>=3.4.3 <4.0.0'
 
 dependencies:
+  fl_chart: 0.36.3
   awesome_dialog: ^3.2.1
   cloud_firestore: ^5.2.1
   cupertino_icons: ^1.0.6

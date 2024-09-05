@@ -100,9 +100,7 @@ class AdminScreen extends StatelessWidget {
                     ),
                   ),
                   GestureDetector(
-                    onTap: () {
-                      // Navigate to another section
-                    },
+                    onTap: () => Get.toNamed(AppRoutes.reportsPage),
                     child: const Card(
                       elevation: 4,
                       child: Column(

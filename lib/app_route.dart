@@ -12,6 +12,7 @@ import 'package:genai/user/equipments_details.dart';
 import 'package:genai/user/user_page.dart';
 import 'package:get/get.dart';
 import 'package:genai/admin/user_management.dart';
+import 'package:genai/admin/reports_page.dart';
 
 
 class AppRoutes {
@@ -25,6 +26,7 @@ class AppRoutes {
   static const String userDetails = '/user_details';
   static const String allEquipments = '/all_equipments';
   static const String manageOwners = '/manage_owners';
+  static const String reportsPage = '/reports';
 
 
   static List<GetPage> routes = [
@@ -50,6 +52,10 @@ class AppRoutes {
     GetPage(
       name: ownerPage,
       page: () => OwnerScreen(),
+    ),
+    GetPage(
+      name: reportsPage,
+      page: () => ReportsPage(),
     ),
     GetPage(
       name: userPage,
